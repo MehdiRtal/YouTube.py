@@ -12,7 +12,7 @@ class YouTube:
     def __get_video_id(self, url: str):
         return re.search(r"(?:v=|\/)([0-9A-Za-z_-]{11}).*", url).group(1)
 
-    def get_video(self, url: str):
+    def get_video_info(self, url: str):
         video = self.it.player(self.__get_video_id(url))
         status = video["playabilityStatus"]["status"]
         if status == "OK":
