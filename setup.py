@@ -1,4 +1,4 @@
-from setuptools import setup, find_packages
+from setuptools import setup
 
 
 with open("requirements.txt") as f:
@@ -7,6 +7,6 @@ with open("requirements.txt") as f:
 setup(
     name="youtube_py", 
     version="0.1",
-    packages=find_packages(),
+    packages=["."],
     install_requires=requirements,
 )
