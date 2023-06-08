@@ -5,7 +5,7 @@ from exceptions import LoginRequired, VideoUnavailable, VideoAgeRestricted, Vide
 from models import Video
 
 
-class Youtube:
+class YouTube:
     def __init__(self, client: str = "ANDROID_CREATOR", proxy: str = None, use_oauth: bool = False, allow_cache: bool = True):
         self.it = InnerTube(client=client, proxy=proxy, use_oauth=use_oauth, allow_cache=allow_cache)
 
