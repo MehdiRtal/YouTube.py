@@ -22,28 +22,6 @@ _clients = {
         "User-Agent": "Mozilla/5.0",
         "key": "AIzaSyAO_FJ2SlqU8Q4STEHLGCilw_Y9_11qcW8"
     },
-    "ANDROID": {
-        "context": {
-            "client": {
-                "clientName": "ANDROID",
-                "clientVersion": "18.21.34",
-                "androidSdkVersion": 33
-            }
-        },
-        "User-Agent": "com.google.android.youtube/",
-        "key": "AIzaSyAO_FJ2SlqU8Q4STEHLGCilw_Y9_11qcW8"
-    },
-    "IOS": {
-        "context": {
-            "client": {
-                "clientName": "IOS",
-                "clientVersion": "18.21.34",
-                "deviceModel": "iPhone14,3"
-            }
-        },
-        "User-Agent": "com.google.ios.youtube/",
-        "key": "AIzaSyAO_FJ2SlqU8Q4STEHLGCilw_Y9_11qcW8"
-    },
     "WEB_EMBED": {
         "context": {
             "client": {
@@ -53,29 +31,6 @@ _clients = {
             }
         },
         "User-Agent": "Mozilla/5.0",
-        "key": "AIzaSyAO_FJ2SlqU8Q4STEHLGCilw_Y9_11qcW8"
-    },
-    "ANDROID_EMBED": {
-        "context": {
-            "client": {
-                "clientName": "ANDROID_EMBEDDED_PLAYER",
-                "clientVersion": "18.21.34",
-                "clientScreen": "EMBED",
-                "androidSdkVersion": 33,
-            }
-        },
-        "User-Agent": "com.google.android.youtube/",
-        "key": "AIzaSyAO_FJ2SlqU8Q4STEHLGCilw_Y9_11qcW8"
-    },
-    "IOS_EMBED": {
-        "context": {
-            "client": {
-                "clientName": "IOS_MESSAGES_EXTENSION",
-                "clientVersion": "18.21.34",
-                "deviceModel": "iPhone14,3"
-            }
-        },
-        "User-Agent": "com.google.ios.youtube/",
         "key": "AIzaSyAO_FJ2SlqU8Q4STEHLGCilw_Y9_11qcW8"
     },
     "WEB_MUSIC": {
@@ -90,6 +45,40 @@ _clients = {
         },
         "key": "AIzaSyAO_FJ2SlqU8Q4STEHLGCilw_Y9_11qcW8"
     },
+    "WEB_CREATOR": {
+        "context": {
+            "client": {
+                "clientName": "WEB_CREATOR",
+                "clientVersion": "2.20230530.05.00",
+            }
+        },
+        "User-Agent": "Mozilla/5.0",
+        "key": "AIzaSyAO_FJ2SlqU8Q4STEHLGCilw_Y9_11qcW8"
+    },
+
+    "ANDROID": {
+        "context": {
+            "client": {
+                "clientName": "ANDROID",
+                "clientVersion": "18.21.34",
+                "androidSdkVersion": 33
+            }
+        },
+        "User-Agent": "com.google.android.youtube/",
+        "key": "AIzaSyAO_FJ2SlqU8Q4STEHLGCilw_Y9_11qcW8"
+    },
+    "ANDROID_EMBED": {
+        "context": {
+            "client": {
+                "clientName": "ANDROID_EMBEDDED_PLAYER",
+                "clientVersion": "18.21.34",
+                "clientScreen": "EMBED",
+                "androidSdkVersion": 33,
+            }
+        },
+        "User-Agent": "com.google.android.youtube/",
+        "key": "AIzaSyAO_FJ2SlqU8Q4STEHLGCilw_Y9_11qcW8"
+    },
     "ANDROID_MUSIC": {
         "context": {
             "client": {
@@ -101,27 +90,6 @@ _clients = {
         "User-Agent": "com.google.android.apps.youtube.music/",
         "key": "AIzaSyAO_FJ2SlqU8Q4STEHLGCilw_Y9_11qcW8"
     },
-    "IOS_MUSIC": {
-        "context": {
-            "client": {
-                "clientName": "IOS_MUSIC",
-                "clientVersion": "6.03.51",
-                "deviceModel": "iPhone14,3"
-            }
-        },
-        "User-Agent": "com.google.ios.youtubemusic/",
-        "key": "AIzaSyAO_FJ2SlqU8Q4STEHLGCilw_Y9_11qcW8"
-    },
-    "WEB_CREATOR": {
-        "context": {
-            "client": {
-                "clientName": "WEB_CREATOR",
-                "clientVersion": "2.20230530.05.00",
-            }
-        },
-        "User-Agent": "Mozilla/5.0",
-        "key": "AIzaSyAO_FJ2SlqU8Q4STEHLGCilw_Y9_11qcW8"
-    },
     "ANDROID_CREATOR": {
         "context": {
             "client": {
@@ -131,6 +99,40 @@ _clients = {
             }
         },
         "User-Agent": "com.google.android.apps.youtube.creator/",
+        "key": "AIzaSyAO_FJ2SlqU8Q4STEHLGCilw_Y9_11qcW8"
+    },
+
+    "IOS": {
+        "context": {
+            "client": {
+                "clientName": "IOS",
+                "clientVersion": "18.21.34",
+                "deviceModel": "iPhone14,3"
+            }
+        },
+        "User-Agent": "com.google.ios.youtube/",
+        "key": "AIzaSyAO_FJ2SlqU8Q4STEHLGCilw_Y9_11qcW8"
+    },
+    "IOS_EMBED": {
+        "context": {
+            "client": {
+                "clientName": "IOS_MESSAGES_EXTENSION",
+                "clientVersion": "18.21.34",
+                "deviceModel": "iPhone14,3"
+            }
+        },
+        "User-Agent": "com.google.ios.youtube/",
+        "key": "AIzaSyAO_FJ2SlqU8Q4STEHLGCilw_Y9_11qcW8"
+    },
+    "IOS_MUSIC": {
+        "context": {
+            "client": {
+                "clientName": "IOS_MUSIC",
+                "clientVersion": "6.03.51",
+                "deviceModel": "iPhone14,3"
+            }
+        },
+        "User-Agent": "com.google.ios.youtubemusic/",
         "key": "AIzaSyAO_FJ2SlqU8Q4STEHLGCilw_Y9_11qcW8"
     },
     "IOS_CREATOR": {
@@ -172,28 +174,6 @@ class InnerTube:
                     self.refresh_token = data["refresh_token"]
                     self.expires = data["expires"]
                     self.refresh_bearer_token()
-    
-    def _api(self, endpoint: str, params: dict = {}, data: dict = {}):
-        params.update(self.base_params)
-        data.update(self.base_data)
-        headers = self.base_headers.copy()
-        if self.use_oauth:
-            if self.access_token:
-                self.refresh_bearer_token()
-                headers.update({"Authorization": f"Bearer {self.access_token}"})
-            else:
-                self.fetch_bearer_token()
-                headers.update({"Authorization": f"Bearer {self.access_token}"})
-        response = requests.post(
-            f"{self.base_url}{endpoint}",
-            params=params,
-            headers=headers,
-            json=data,
-            proxies={"https": f"http://{self.proxy}"} if self.proxy else None
-        )
-        if response.status_code != 200:
-            raise Exception(response.text)
-        return response.json()
 
     def cache_tokens(self):
         if not self.allow_cache:
@@ -249,17 +229,39 @@ class InnerTube:
         self.expires = start_time + response_data["expires_in"]
         self.cache_tokens()
 
+    def __api(self, endpoint: str, params: dict = {}, data: dict = {}):
+        params.update(self.base_params)
+        data.update(self.base_data)
+        headers = self.base_headers.copy()
+        if self.use_oauth:
+            if self.access_token:
+                self.refresh_bearer_token()
+                headers.update({"Authorization": f"Bearer {self.access_token}"})
+            else:
+                self.fetch_bearer_token()
+                headers.update({"Authorization": f"Bearer {self.access_token}"})
+        response = requests.post(
+            f"{self.base_url}{endpoint}",
+            params=params,
+            headers=headers,
+            json=data,
+            proxies={"https": f"http://{self.proxy}"} if self.proxy else None
+        )
+        if response.status_code != 200:
+            raise Exception(response.text)
+        return response.json()
+
     def player(self, video_id: str):
         params = {
             "videoId": video_id
         }
-        return self._api("/player", params=params)
+        return self.__api("/player", params=params)
 
     def search(self, query: str):
         params = {
             "query": query
         }
-        return self._api("/search", params=params)
+        return self.__api("/search", params=params)
 
     def verify_age(self, video_id: str):
         data = {
@@ -270,12 +272,12 @@ class InnerTube:
             },
             "setControvercy": True
         }
-        result = self._api("/verify_age", data=data)
+        result = self.__api("/verify_age", data=data)
         return result
 
     def get_transcript(self, video_id: str):
         params = {
             "videoId": video_id,
         }
-        result = self._api("/get_transcript", params=params)
+        result = self.__api("/get_transcript", params=params)
         return result
