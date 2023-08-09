@@ -1,8 +1,8 @@
 import re
 
-from innertube import InnerTube
-from exceptions import LoginRequired, VideoUnavailable, VideoAgeRestricted, VideoPrivate
-from models import Video
+from .innertube import InnerTube
+from .exceptions import LoginRequired, VideoUnavailable, VideoAgeRestricted, VideoPrivate
+from .models import Video
 
 
 class YouTube:
