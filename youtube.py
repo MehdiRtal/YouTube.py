@@ -9,11 +9,11 @@ class YouTube:
     def __init__(self, client: str = "ANDROID_CREATOR", proxy: str = None, use_oauth: bool = False, allow_cache: bool = True):
         self.it = InnerTube(client=client, proxy=proxy, use_oauth=use_oauth, allow_cache=allow_cache)
 
-    def __get_video_id(self, url: str):
+    def get_video_id(self, url: str):
         return re.search(r"(?:v=|\/)([0-9A-Za-z_-]{11}).*", url).group(1)
 
     def get_video_info(self, url: str):
-        video = self.it.player(self.__get_video_id(url))
+        video = self.it.player(self.get_video_id(url))
         status = video["playabilityStatus"]["status"]
         if status == "OK":
             return Video(**video)
