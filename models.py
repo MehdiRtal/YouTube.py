@@ -26,4 +26,4 @@ class Video(BaseModel):
     views : int = Field(validation_alias=AliasPath("videoDetails", "viewCount"))
     thumbnails: List[Thumbnail] = Field(validation_alias=AliasPath("videoDetails", "thumbnail", "thumbnails"))
     streams: StreamType = Field(validation_alias="streamingData")
-    is_live: bool = Field(validation_alias=AliasPath("videoDetails", "isLive"))
+    is_live: bool = Field(validation_alias=AliasPath("videoDetails", "isLiveContent"))
