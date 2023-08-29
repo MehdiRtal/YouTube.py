@@ -13,3 +13,7 @@ class VideoAgeRestricted(Exception):
 class VideoPrivate(Exception):
     def __init__(self, message: str):
         super().__init__(message)
+
+class VideoLive(Exception):
+    def __init__(self, message: str):
+        super().__init__(message)

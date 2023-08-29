@@ -1,7 +1,7 @@
 import re
 
 from .innertube import InnerTube
-from .exceptions import LoginRequired, VideoUnavailable, VideoAgeRestricted, VideoPrivate
+from .exceptions import LoginRequired, VideoUnavailable, VideoAgeRestricted, VideoPrivate, VideoLive
 from .models import Video
 
 
@@ -16,6 +16,8 @@ class YouTube:
         video = self.it.player(self.get_video_id(url))
         status = video["playabilityStatus"]["status"]
         if status == "OK":
+            if video["videoDetails"]["isLiveContent"]:
+                raise VideoLive("Video is live")
             return Video(**video)
         else:
             reason = video["playabilityStatus"]["reason"]
